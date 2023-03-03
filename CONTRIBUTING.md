@@ -162,7 +162,7 @@ The checklist for the release as of today is the following:
 
 ### Client:
 
-- update the client changelog at `editor/code/CHANGELOG.md`, commit
+- update the client changelog at `editor/code/CHANGELOG.md` with the relevant information from `CHANGES.md`, commit
 - for the `main` branch: `dune release tag $coq_lsp_version`
 - check with `vsce ls` that the client contents are OK
 - `vsce publish`
